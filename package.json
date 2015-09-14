@@ -4,7 +4,7 @@
   "description": "A quick HTTP framework",
   "main": "bistra.js",
   "scripts": {
-    "test": "/node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
