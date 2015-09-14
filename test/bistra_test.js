@@ -1,11 +1,11 @@
 var chai = require('chai');
 var expect = chai.expect;
-var bistra = require(__dirname + "/../bistra.js");
+var bistra = require(__dirname + "/../lib/bistra.js");
 var chaiHttp = require('chai-http');
 var fs = require('fs');
 
 
-require(__dirname + "/../testHttpServer.js");
+require(__dirname + "/testHttpServer.js");
 
 chai.use(chaiHttp);
 
