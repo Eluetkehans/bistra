@@ -7,7 +7,7 @@ to use Bistra in your server simply download it into the same file as
 your server, and require it in the top of your server file like this:
 
 ```javascript
-var bistra = require(__dirname = '/bistra');
+var bistra = require(__dirname + '/bistra');
 ```
 
 Then just let Bistra do the routing for you! When you create your server,
